@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+}
+ul{
+    list-style-type:none;
+
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+.manok{
+
+    background-image: url(img/manok.GIF);
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+#wordcontainer{
+    text-align: left;
+    position: relative;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wordcontainer h1{
+    margin: 10px;
+    padding: 4;
+    position: relative;
+    top: 400px;
+    left: 400px;
+    color: white;
+
+}
+#magnify{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 360px;
+    left: 370px;
+}
+
+#people{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 360px;
+    left: 370px;
+}
+
+#mensahe{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 360px;
+    left: 370px;
+}
+
+.login{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 50%;
+}
+
+.login img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+.login small{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.login p{
+    position: relative;
+    top: 350px;
+    left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px!important;
+    font-weight: bold;
+
+}
+.password{
+    position: relative;
+    top: 5px;
+    left: 300px;
+    padding: 3px;
+    margin: 10px;
+    border: 2px solid #00BFFF;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.password:hover{
+    border: 1px solid red;
+}
+.email{
+    position: relative;
+    top: 5px;
+    left: 300px;
+    padding: 3px;
+    margin: 10px;
+    border: 2px solid skyblue;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+.email:hover {
+    border: 1px solid red;
+}
+.button1{
+    position: relative;
+    top: 5px;
+    left:300px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid skyblue;
+}
+
+
+.button2{
+    position: relative;
+    top: 30px;
+    left: 400px;
+    border: none;
+    color: #00BFFF;
+    background: none;
+}
+
+.button3{
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    width: 300px;
+    height: 40px;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #00BFFF;
+    color: aliceblue;
+    border-color: #00BFFF;
+
+}
+.button4{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background: none;
+    border-color: #00BFFF;
+}
+
